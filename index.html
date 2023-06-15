@@ -8,6 +8,41 @@
   <title>Character Builder</title>
 </head>
 <body>
-  <h1>Character Builder</h1>
+  <h1>Create your character</h1>
+<div>
+  <h2>Choose a class</h2>
+  <form id="select-form">
+    <select id="class">
+      <option>Warrior</option>
+      <option>Rogue</option>
+      <option>Mage</option>
+      <option>Druid</option>
+    </select>
+  </form>
+</div>
+<div>
+  <h2>Choose a faction</h2>
+  <form id="radio-form">
+  <label>
+    <input type="radio" name="faction" value="alliance" checked>
+    Alliance
+  </label><br />
+  <label>
+    <input type="radio" name="faction" value="horde">
+    Horde
+  </label><br />
+  <label>
+    <input type="radio" name="flavor" value="nuetral">
+    Nuetral
+  </label><br />
+</form>
+<br />
+</div>
+<div>
+  <label for="person1Input">Character Name</label>
+  <input id="person1Input" type="text" name="person1Input">
+</div>
+<br />
+  <button type="submit">Create</button>
 </body>
 </html>
